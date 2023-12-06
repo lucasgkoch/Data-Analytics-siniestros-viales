@@ -1,3 +1,5 @@
+![banner github](assets/README/Banner_github.png)
+
 # Siniestros Viales Fatales en la Ciudad de Buenos Aires
 
 Este proyecto tiene como objetivo analizar y visualizar datos sobre siniestros viales fatales en la Ciudad de Buenos Aires. La información proviene de las bases de datos oficiales de la ciudad y ha sido procesada y analizada utilizando Python. A continuación, se proporciona una descripción general de las principales etapas y componentes del proyecto.
