@@ -22,6 +22,22 @@ El repositorio está organizado de la siguiente manera para facilitar la navegac
 
 - **requirements.txt:** Este archivo especifica las dependencias necesarias para ejecutar el código Python. Asegúrese de instalar estas dependencias antes de ejecutar cualquier script.
 
+## Accesibilidad
+
+Este proyecto se ha desarrollado teniendo en cuenta aspectos de accesibilidad. Se realizaron esfuerzos para asegurar que los gráficos y visualizaciones sean comprensibles para personas con distintos tipos de daltonismo. Durante el proceso de diseño y desarrollo, se llevaron a cabo las siguientes consideraciones:
+
+- **Elección de Paleta de Colores:**
+  Se seleccionaron cuidadosamente colores que proporcionan un alto contraste y son distinguibles para personas con daltonismo. Se evitó el uso de combinaciones de colores que podrían causar confusión.
+
+- **Etiquetado Descriptivo:**
+  Se proporcionaron etiquetas descriptivas y alternativas a las visualizaciones para garantizar que la información sea accesible para usuarios con discapacidades visuales.
+
+- **Pruebas de Accesibilidad:**
+  Se realizaron pruebas exhaustivas para verificar la accesibilidad de las visualizaciones utilizando herramientas y estándares reconocidos. Se tomaron medidas correctivas según sea necesario.
+
+![prueba daltonismo](assets/README/accesibilidad%20daltonismo.png)
+
+
 
 ## ETL en Python
 
@@ -35,7 +51,7 @@ Se realizaron operaciones de Extracción, Transformación y Carga (ETL) de los d
 ## Análisis Exploratorio de Datos (EDA) en Python
 
 El análisis exploratorio de datos se llevó a cabo utilizando pandas y matplotlib. Los resultados y visualizaciones se encuentran en el archivo [EDA](EDA.ipynb), donde se pueden explorar los notebooks y gráficos generados durante este proceso.
-
+En el proceso de este EDA se encontró un importante insight que se utilizará en power BI para implementar un KPI.
 ## Base de Datos SQL
 
 Los datos obtenidos durante el proceso de Extracción, Transformación y Carga (ETL) se han almacenado en una base de datos SQL para facilitar la gestión y consulta de la información. Se incluye un script SQL que puede ser utilizado para crear la estructura de la base de datos y cargar los datos procesados.
