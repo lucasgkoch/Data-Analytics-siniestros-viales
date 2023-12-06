@@ -35,9 +35,13 @@ Este proyecto se ha desarrollado teniendo en cuenta aspectos de accesibilidad. S
 - **Pruebas de Accesibilidad:**
   Se realizaron pruebas exhaustivas para verificar la accesibilidad de las visualizaciones utilizando herramientas y estándares reconocidos. Se tomaron medidas correctivas según sea necesario.
 
+- **La siguiente prueba fue realizada en Adobe Photoshop con la herramienta colorblind proof**
+
 ![prueba daltonismo](assets/README/accesibilidad%20daltonismo.png)
 
+## Tecnologias utilizadas
 
+![tecnologias](assets/README/tech_stack.png)
 
 ## ETL en Python
 
