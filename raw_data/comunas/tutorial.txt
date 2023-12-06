@@ -1,0 +1,4 @@
+se descarga el archivo geojson de las comunas desde https://data.buenosaires.gob.ar/dataset/comunas
+se carga dicho archovo en la pagina geojson.io para poder eliminar columnas innecesarias o renombrar campos y se guarda nuevamente como .geojson
+se carga el nuevo archivo geojson en la pagina mapshaper.org y se guarda tal cual esta como topojson
+el archivo topojson (.json) esta listo para usar en power BI
